@@ -1,11 +1,11 @@
 Package: BMI510rpack
 Type: Package
-Title: What the Package Does (Title Case)
+Title: BMI510 r package
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "Sumon Kanti", "Dey",
+      email = "sumon.kanti.dey@emory.edu",
       role = c("aut", "cre")
     )
   )
@@ -14,3 +14,4 @@ Description: More about what it does (maybe more than one line).
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.3.2
