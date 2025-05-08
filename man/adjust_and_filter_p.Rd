@@ -26,5 +26,4 @@ Any value greater than \code{alpha} is replaced with \code{NA} to indicate it is
 \examples{
 raw_p <- c(0.01, 0.04, 0.20, 0.03)
 adjust_and_filter_p(raw_p, method = "BH", alpha = 0.05)
-
 }

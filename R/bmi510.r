@@ -61,7 +61,7 @@ add4_or <- function(exposure, outcome) {
 #' @examples
 #' raw_p <- c(0.01, 0.04, 0.20, 0.03)
 #' adjust_and_filter_p(raw_p, method = "BH", alpha = 0.05)
-#'
+#' @importFrom stats p.adjust
 #' @export
 adjust_and_filter_p <- function(p_values, method = "holm", alpha = 0.05) {
   if (!is.numeric(p_values)) {
@@ -325,7 +325,7 @@ confusion_metrics <- function(truth, pred) {
 #' @details
 #' In non-strict mode, the function checks whether there are exactly two unique, non-missing values.
 #' In strict mode, it ensures that the values are strictly numeric (0, 1) or logical (TRUE, FALSE).
-#'
+#' @importFrom stats na.omit
 #' @examples
 #' is_binary(c(0, 1, 0, 1))             # TRUE
 #' is_binary(c("yes", "no", "yes"))    # TRUE
