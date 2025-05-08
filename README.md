@@ -4,23 +4,23 @@
 
 
 ## 📌Functions Provided:
-```
+<pre>
 1. add4_or(), 2. adjust_and_filter_p(), 3. coalesce_nonempty(), 4. fit_bernoulli(), 5. fit_gaussian(),
 6. gt_zero(), 7. make_flat_case(), 8. print_colnames(), 9. fair_accuracy(), 10. confusion_metrics()
 11. is_binary(), 12. majority_label()
-```
+</pre>
 ![unit_test](assets/img.png)
 
 ## ⚙️ Working on the Package
 
 ## Step-by-step instructions
 1. Clone the repository
-```
+```r
 git clone https://github.com/SumonKantiDey/BMI510rpack
 cd BMI510rpack
 ```
 2. Open R or RStudio, then run: 
-```
+```r
 library(devtools)
 library(roxygen2)
 
@@ -46,7 +46,7 @@ devtools::test()
 
 
 5. If you make changes, commit them and push back to GitHub:
-```
+```python
 git status
 git add .
 git commit -m "Added function XYZ"
