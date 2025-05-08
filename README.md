@@ -45,7 +45,7 @@ devtools::test()
 ![unit_test](assets/unit_test.png)
 
 
-4. If you make changes, commit them and push back to GitHub:
+5. If you make changes, commit them and push back to GitHub:
 ```
 git status
 git add .
