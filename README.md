@@ -1,7 +1,7 @@
 # 📦 BMI510rpack
 
 **BMI510rpack** is an R package created by Sumon Kanti Dey for the BMI510 course at Emory University. It includes a collection of utility functions for statistical modeling, performance evaluation, and data cleaning — with clear documentation and examples.
----
+
 
 ## 📌Functions Provided:
 ```
@@ -16,7 +16,7 @@
 ## Step-by-step instructions
 1. Clone the repository
 ```
-git clone https://github.com/your-github-username/BMI510rpack
+git clone https://github.com/SumonKantiDey/BMI510rpack
 cd BMI510rpack
 ```
 2. Open R or RStudio, then run: 
